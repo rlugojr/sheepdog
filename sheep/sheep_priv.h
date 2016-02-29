@@ -173,6 +173,7 @@ struct system_info {
 	struct work_queue *oc_push_wqueue;
 	struct work_queue *md_wqueue;
 	struct work_queue *areq_wqueue;
+	struct work_queue *bitmap_collection_wqueue;
 #ifdef HAVE_HTTP
 	struct work_queue *http_wqueue;
 #endif
